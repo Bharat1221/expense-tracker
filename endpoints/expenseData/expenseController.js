@@ -253,6 +253,7 @@ exports.UserExpenses = async (req, res) => {
   });
  
    console.log(todayDate,"todayDate");
+   console.log('------',abc)
   res.send(abc);
   res.end();
 
